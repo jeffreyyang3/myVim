@@ -1,0 +1,9 @@
+[submodule "/Users/4jeffrey/.vim/bundle/nerdtree"]
+	path = /Users/4jeffrey/.vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "/Users/4jeffrey/.vim/bundle/vim-javascript"]
+	path = /Users/4jeffrey/.vim/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "/Users/4jeffrey/.vim/bundle/auto-pairs"]
+	path = /Users/4jeffrey/.vim/bundle/auto-pairs
+	url = git://github.com/jiangmiao/auto-pairs.git
