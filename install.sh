@@ -12,9 +12,14 @@ declare -a links=(
 "https://github.com/pangloss/vim-javascript.git"
 "https://github.com/posva/vim-vue.git"
 "https://github.com/mxw/vim-jsx.git"
+"https://github.com/prettier/vim-prettier.git"
 ) 
 
 for i in "${links[@]}"
 do
     git clone "$i" 
 done
+
+
+cd vim-prettier
+npm install
