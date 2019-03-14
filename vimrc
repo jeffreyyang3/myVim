@@ -12,9 +12,9 @@ syntax on
 colorscheme dracula
 set clipboard=unnamed
 set number
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set expandtab
 set mouse=a
 set autoindent
@@ -27,8 +27,7 @@ set filetype=vue.html
 let g:airline_section_x = '%{&filetype}'
 highlight TabLineFill ctermbg=236 ctermfg=236 cterm=bold
 " air-line
-let g:prettier#autoformat = 0
-autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
-
-
+let g:airline#extensions#ale#enabled = 1
+let g:ale_fix_on_save = 1
+let g:ale_fixers = {'python' : ['autopep8'], 'javascript' : ['prettier']}
 
