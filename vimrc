@@ -18,7 +18,7 @@ set shiftwidth=2
 set expandtab
 set mouse=a
 set autoindent
-
+imap jj <Esc>
 set rtp+=/usr/local/opt/fzf
 set bs=2
 set laststatus=2
