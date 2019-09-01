@@ -12,7 +12,6 @@ declare -a links=(
 "https://github.com/pangloss/vim-javascript.git"
 "https://github.com/posva/vim-vue.git"
 "https://github.com/mxw/vim-jsx.git"
-"https://github.com/prettier/vim-prettier.git"
 "https://github.com/tpope/vim-sleuth.git"
 "https://github.com/w0rp/ale.git"
 ) 
