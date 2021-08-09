@@ -1,7 +1,6 @@
 cd ~/.vim/bundle/
 declare -a links=(
 "https://github.com/jiangmiao/auto-pairs.git"
-
 "https://github.com/mattn/emmet-vim.git"
 "https://github.com/junegunn/fzf.vim.git"
 "https://github.com/othree/html5.vim.git"
@@ -13,7 +12,8 @@ declare -a links=(
 "https://github.com/posva/vim-vue.git"
 "https://github.com/mxw/vim-jsx.git"
 "https://github.com/tpope/vim-sleuth.git"
-"https://github.com/w0rp/ale.git"
+"https://github.com/w0rp/ale.git",
+"https://github.com/tpope/vim-endwise.git"
 ) 
 
 for i in "${links[@]}"
