@@ -22,7 +22,7 @@ set noshowmode
 let g:airline_section_x = '%{&filetype}'
 highlight TabLineFill ctermbg=236 ctermfg=236 cterm=bold
 let g:airline#extensions#ale#enabled = 1
-colorscheme dracula
+colorscheme monokai
 
 " let g:ale_fix_on_save = 1
 " let g:ale_fixers = {'python' : ['autopep8'], 'javascript' : ['prettier']}
