@@ -1,3 +1,4 @@
+#!/bin/bash
 cd ~/.vim/bundle/
 declare -a links=(
 "https://github.com/jiangmiao/auto-pairs.git"
@@ -12,7 +13,7 @@ declare -a links=(
 "https://github.com/posva/vim-vue.git"
 "https://github.com/mxw/vim-jsx.git"
 "https://github.com/tpope/vim-sleuth.git"
-"https://github.com/w0rp/ale.git",
+"https://github.com/w0rp/ale.git"
 "https://github.com/tpope/vim-endwise.git"
 ) 
 
